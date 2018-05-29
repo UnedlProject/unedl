@@ -1,0 +1,98 @@
+.brandingP{
+    height: 120px;
+    background-color:#1A1D56;
+}
+a li{
+
+    font-family: "Arial";
+    font-size: 16px;
+    font-weight: bold;
+}
+.navbar{
+    background-color: white;
+}
+@media(max-width:600px){
+    #brand img{
+        width: 100%;
+    
+        }
+}
+
+a:hover{
+    color: #9D7738;
+}
+.color-dorado{
+    height: 10px;
+    background-color: #9D7738;
+}
+.color-amarillo{
+    height: 20px;
+    background-color:#FECF1D;
+}
+.dropdown-menu{
+ background-color:black;
+}
+.dropdown-menu .color{
+    color:white;
+}
+.dropdown-menu .color:hover{
+    background-color:#9D7738;
+}
+.panel-default{
+    background-color:#1A1D56 ;
+}
+.panel-default label{
+    color:white;
+}
+#color-panel{
+    background-color:#FECF1D;
+    height: 50px;
+    padding-bottom: 20px;
+    color:white;
+    font-size: 20px;
+}
+.form-control{
+    color:white;
+    background-color: black;
+}
+.form-control:hover{
+    background-color:#9D7738;
+}
+.form-control:active{
+    background-color:#9D7738;
+}
+.btn-primary{
+    background-color:#9D7738 ;
+}
+#font-color{
+color:#1A1D56;
+    font-family: Arial;
+    font-size: 15px;
+}
+#font-color:hover{
+    color:#9D7738;
+}
+.title{
+    font-size: 50px;
+    color:gray;
+}
+.navbar li:hover{
+    background-color:#9D7738;
+}
+#indicador{
+  height: 800px;
+   width:100%;
+}
+@media(max-width: 1200px) {
+    #indicador{
+    height: 100%;
+    }
+}
+@media(min-width: 300px) {
+    #indicador{
+    height: 100%;
+    }
+}
+#tablero{
+    overflow:scroll;
+}
